@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>About | Tennis</title>
+    <link rel="icon" type="image/png" href="images/tennis.png">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Menu -->
+    <header>
+        <ul class="flex">
+            <li class="site-logo">
+                <a href="index.html"><img src="images/tennis.png" alt="tennis racket logo" class="logo"></a>
+            </li>
+            <!--&#9776 fafa bars-->
+            <label class= "labelmenu" for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="nav flex">
+            <li class="item"><a href="index.html">Home</a> 
+                <div class=" abaout">
+                    <li><a href="about.html">About</a>
+                        <span class="drop-icon"></span>
+                            <label  class= "labelmenusub"  for="toggle1">▾</label>
+                            <input type="checkbox" id="toggle1"/>
+                     <div class=" sub-menu"> 
+                        <ul >
+                              <li><a href="about/team.html">Our team</a></li>
+                         </ul>  
+                    </div>  
+                </li>
+                <li class="item"><a href="news.html">News</a></li>
+                <li class="item"><a href="gallery.html">Gallery</a></li>
+                <li class="item"><a href="blog.html">Blog</a></li>
+                <li class="item"><a href="contact.html">Contact</a></li>  
+            </div>
+         </ul>
+    </header> 
+    <main>
+        <!-- Main content -->
+            <div class="secondary-image-header">
+                <img src="images/about-header.jpg" alt="Tennis court line">
+            </div>
+
+       <div id="main-container-about" class="page-pad">
+            <h1 class="center title">
+                About us
+            </h1>
+            <article class="content-container mt">
+                <h3 class="subtitle">
+                    Lorem ipsum dolor sit.
+                </h3>
+                <p class="p1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo <b>laboriosam</b> nesciunt incidunt est, magni molestias
+                    quas.
+                    Laudantium delectusconsequuntur minus rem ad explicabo animi unde id qui aperiam, quod <b>nesciunt</b> adipisci sunt
+                    labore!
+                    Exercitationem vero amet provident labore doloremque?
+                    Expedita, error laudantium perferendis magni iure nulla earum voluptatem quis optio facilis provident obcaecati
+                    maxime ex quasi quos! Fugiat, sunt dicta.
+                </p>
+            </article>
+            <div>
+                <!-- Use vertical images only for best carousel optimization -->
+                <!-- Max 6 images -->
+                <section class="carousel">
+                    <ul class="slides">
+                        <input type="radio" name="radio-buttons" id="img-1" checked />
+                        <li class="slide-container">
+                            <div class="slide-image">
+                                <img src="images/ape-1.jpg" alt="Picture of ape">
+                            </div>
+                            <div class="carousel-controls">
+                                <label for="img-3" class="prev-slide">
+                                    <span>&lsaquo;</span>
+                                </label>
+                                <label for="img-2" class="next-slide">
+                                    <span>&rsaquo;</span>
+                                </label>
+                            </div>
+                        </li>
+                        <input type="radio" name="radio-buttons" id="img-2" />
+                        <li class="slide-container">
+                            <div class="slide-image">
+                                <img src="images/ape-2.jpg" alt="Picture of ape">
+                            </div>
+                            <div class="carousel-controls">
+                                <label for="img-1" class="prev-slide">
+                                    <span>&lsaquo;</span>
+                                </label>
+                                <label for="img-3" class="next-slide">
+                                    <span>&rsaquo;</span>
+                                </label>
+                            </div>
+                        </li>
+                        <input type="radio" name="radio-buttons" id="img-3" />
+                        <li class="slide-container">
+                            <div class="slide-image">
+                                <img src="images/ape-3.jpg" alt="Picture of ape">
+                            </div>
+                            <div class="carousel-controls">
+                                <label for="img-2" class="prev-slide">
+                                    <span>&lsaquo;</span>
+                                </label>
+                                <label for="img-1" class="next-slide">
+                                    <span>&rsaquo;</span>
+                                </label>
+                            </div>
+                        </li>
+                        <div class="carousel-dots">
+                            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                        </div>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2020: Rubo & Latour ICT
+    </footer>
+</body>
+</html>
+<!-- Fixes transition loading on page refresh bug -->
+<script> </script>
